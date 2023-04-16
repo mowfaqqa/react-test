@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .Tab {
+    @apply mx-2 flex text-sm text-gray-main;
+  }
+
+  .Tab__contained {
+    @apply py-2 px-[15px] rounded-sm border border-[#D9D9D9] focus:outline-none;
+  }
+
+  .Tab__contained_selected {
+    @apply bg-[#2196F3] px-[15px] text-[#fff];
+  }
+}
