@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) a react framework
+This is a [Next.js](https://nextjs.org/) (react framework) project
 
 ## Getting Started
 
